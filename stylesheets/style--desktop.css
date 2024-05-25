@@ -1,0 +1,9 @@
+.nav__list {
+  a {
+    &:hover {
+      color: black;
+      text-decoration: underline;
+      text-decoration-color: rgb(59, 59, 59);
+    }
+  }
+}
