@@ -54,7 +54,7 @@ html, body {
 }
 
 .intro__text {
-  align-content: center;
+  align-self: center;
   color: rgb(58, 58, 58);
 }
 
