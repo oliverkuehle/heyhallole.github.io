@@ -83,7 +83,7 @@ html, body {
   .material-symbols-rounded {
     vertical-align: bottom;
     color: rgb(58, 58, 58);
-    font-size: 0.9em;
+    font-size: 0.8em;
     vertical-align: middle;
     position: relative;
     bottom: 3px;
@@ -96,7 +96,7 @@ html, body {
 }
 
 .cc {
-  color: rgb(224, 224, 224);
+  color: rgb(159, 159, 159);
   margin-top: auto;
   padding-bottom: 2px;
   padding-left: 8px;
