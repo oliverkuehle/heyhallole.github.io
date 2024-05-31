@@ -42,8 +42,8 @@ html, body {
 .logo {
   img {
     width: 42px;
-    padding-left: 4vw;
-    padding-top: 3vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
   }
 }
 
