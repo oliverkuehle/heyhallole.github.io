@@ -93,10 +93,6 @@ html, body {
     color: rgb(58, 58, 58);
     text-decoration-color: rgb(200, 200, 200);
   }
-
-  span {
-    color: lightgray;
-  }
 }
 
 .cc {
