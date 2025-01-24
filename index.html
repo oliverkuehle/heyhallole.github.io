@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="UTF-8">
-    <title>OK</title>
-  </head>
-  <body>
-    <p>O.K.</p>
-    <p>Oliver Kühle</p>
-    <p><b>Currently unavailable due to redesign.</b></p>
-    <p></p>
-    <p><a href="https://www.linkedin.com/in/oliver-kühle-6a58a4234/">LinkedIn</a>.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Oliver</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="icon" href="resources/favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,400,0,200" />
+</head>
+<body class="container">
+  <div id="fadein"></div>
+  
+  <header class="banner">
+    <a href="index.html">
+    <img
+      src="resources/OKIcon.png" 
+      alt="Initials 'OK' rotated by 90deg, smybolizing a swaggy stick figure"
+    >
+    </a>
+    <span class="bio bio--mobile">"Passionate about creating products that make our world better and people's lives easier."</span>
+  </header>
+  
+  
+  <main class="content">
+
+      <div class="intro">
+        <img class="intro__pic" src="resources/profilepicture.jpg" alt="Picture of Oliver Kühle">
+        <div class="intro__text">
+          <span class="intro__text--line">Hey,</span>
+          <span class="intro__text--line">I'm <b>Oliver</b> Kühle,</span>
+          <span class="intro__text--linebreak">a human-centric <b>software developer</b></span>
+          <span class="intro__text--linebreak">and aspiring <b>usability engineer</b>.</span>
+        </div>
+      </div>
+
+      <div class="bio bio--desktop">
+        <span>"Passionate about creating products that make our world better and people's lives easier."</span>
+      </div>
+
+      <div class="nav">
+        <ul class="nav__list">
+          <li><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1pjGdsGQjgRcGnbEFhG3qv7PqJ7JAUnMo/view?usp=sharing">Resume<span class="material-symbols-rounded">open_in_new</span></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/oliverkuehle">GitHub<span class="material-symbols-rounded">open_in_new</span></a></li>
+        </ul>
+        <div class="nav__section">
+          <h3>Writing</h3>
+          <ul class="nav__list">
+            <li>PromptCanvas: Composable Prompting Workspaces for Exploration and Iteration (BA thesis)</li>
+            <li class="contact-for-article">Exploring the Impact of Domestic Robotics on Preventing Lonely Deaths among Japan's Hikikomori</li>
+          </ul>
+        </div>
+        <div class="nav__section">
+          <h3>Projects</h3>
+          <ul class="nav__list">
+            <li>PromptCanvas: Composable Prompting Workspaces for Exploration and Iteration</li>
+            <li>RoboRally: Online multiplayer adaptation of the analogue board game</li>
+          </ul>
+        </div>
+      </div>
+    
+  </main>
+
+  <footer>
+    <span class="cc"><small>© <script>document.write(new Date().getFullYear())</script> Oliver Kühle. All Rights Reserved.</small></span>
+  </footer>
+  
+  <script src="fadeinall.js"></script>
+  <script src="app.js"></script>
+</body>
 </html>
