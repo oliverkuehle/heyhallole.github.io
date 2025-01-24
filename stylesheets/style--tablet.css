@@ -1,8 +1,0 @@
-.intro {
-  display: inline-flex;
-  column-gap: 30px;
-} 
-
-.intro__text--linebreak {
-  display: block;
-}
