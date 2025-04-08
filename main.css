@@ -2,7 +2,7 @@
 
 /* Define color variables */
 :root {
-  --color-background: #FFFDF5;
+  --color-background: #fffdf5;
   --color-text-primary: rgb(58, 58, 58);
   --color-text-secondary: rgb(115, 115, 115);
   --color-text-tertiary: rgb(159, 159, 159);
@@ -11,19 +11,20 @@
 
 @font-face {
   font-family: Chivo;
-  src: url('resources/fonts/chivo/Chivo-Light.otf');
+  src: url("resources/fonts/chivo/Chivo-Light.otf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Chivo;
-  src: url('resources/fonts/chivo/Chivo-Regular.otf');
+  src: url("resources/fonts/chivo/Chivo-Regular.otf");
   font-weight: bold;
 }
 
 /************************/
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   background-color: var(--color-background);
@@ -83,19 +84,11 @@ html, body {
 }
 
 .intro__text--linebreak {
-  white-space: nowrap;  
+  white-space: nowrap;
 }
 
 .nav {
   margin-top: 1.5rem;
-
-  >.nav__list {
-    margin-bottom: 3rem;
-    li {
-      margin-top: 5px;
-      margin-bottom: unset;
-    }
-  }
 }
 
 .nav__section h3 {
@@ -107,17 +100,32 @@ html, body {
   padding-bottom: 5px;
 }
 
+.nav__links {
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 0.7rem;
+
+  a {
+    color: var(--color-text-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--color-text-secondary);
+
+    &:hover {
+      color: var(--color-text-secondary);
+    }
+  }
+}
 
 .nav__list {
   padding-left: 20px;
   margin-bottom: 30px;
 
   li {
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
     color: var(--color-text-secondary);
 
     &::marker {
-      color: var(--color-text-secondary)
+      color: var(--color-text-secondary);
     }
 
     a {
@@ -171,12 +179,12 @@ span.material-symbols-rounded {
 
   .intro {
     margin-left: 1.2rem !important;
-  } 
+  }
 
   .nav {
     margin-top: 2.5rem !important;
-  
-    >.nav__list {
+
+    > .nav__list {
       margin-bottom: 2rem !important;
     }
   }
@@ -192,13 +200,13 @@ span.material-symbols-rounded {
     display: block !important;
     margin-top: 1rem;
   }
-  
+
   .intro__text--line {
     padding-bottom: 10px;
   }
-  
+
   .intro {
     display: inline-flex;
     column-gap: 30px;
-  } 
+  }
 }
